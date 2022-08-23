@@ -1,6 +1,6 @@
-import type { NextPage } from "next"
-import Image from "next/image"
-import Layout from "../components/Layout"
+import type { NextPage } from "next";
+import Layout from "../components/Layout";
+import React from "react";
 
 const Home: NextPage = () => {
   return (
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
