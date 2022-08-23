@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import React from "react";
+import Navbar from "./Navbar";
 
 /**
  * Returns the page layout wrapper with permanent head and footer
@@ -13,7 +14,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <title>Little Thetford Netball Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header />
+      <header>
+        <h1 className="text-6xl font-bold">Little Thetford Netball Club</h1>
+        <Navbar />
+      </header>
       <main>{children}</main>
       <Footer />
     </div>
