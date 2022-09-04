@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Footer from "./Footer";
 import React from "react";
 import Header from "./Header";
@@ -10,10 +9,6 @@ import Header from "./Header";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col items-center">
-      <Head>
-        <title>Little Thetford Netball Club</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Header />
       <main>{children}</main>
       <Footer />
