@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="flex w-full flex-1 flex-col items-center justify-center px-20 py-4">
-        <h1 className="text-4xl text-center font-bold text-blue-500 py-4">
+        <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Welcome to Little Thetford Netball Club!
         </h1>
         <div className="w-3/5 py-2">

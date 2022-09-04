@@ -10,7 +10,7 @@ import bannerPic from "../public/images/team_shield_cropped.jpeg";
 export default function Header() {
   return (
     <header>
-      <div className="relative text-center text-white">
+      <div className="relative text-center text-white leading-0">
         <Image
           src={bannerPic}
           alt="Team Photo"

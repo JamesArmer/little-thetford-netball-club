@@ -6,7 +6,7 @@ const ClubInfo: NextPage = () => {
   return (
     <Layout>
       <div className="flex w-full flex-1 flex-col items-center justify-center px-20 py-4">
-        <h1 className="text-4xl text-center font-bold text-blue-500 py-4">
+        <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Club Information
         </h1>
         <div className="w-3/5 py-2">
@@ -23,7 +23,7 @@ const ClubInfo: NextPage = () => {
           <p className="text-xl">
             The first couple of sessions are free to give you a chance to come
             along and take part before deciding whether you want to join the
-            club. Membership fees are £10 per month. Membership allows you to
+            club. Membership fees are £X per month. Membership allows you to
             attend training on a Wednesday evening and take part in any friendly
             matches or tournaments organised by the club. If you decide you
             would like to join a team and take part in competitive matches
