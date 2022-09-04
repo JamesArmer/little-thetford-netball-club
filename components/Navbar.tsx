@@ -14,14 +14,14 @@ export default function Navbar() {
     <div className="flex justify-center bg-black">
       <ul className="list-none overflow-hidden text-white">
         <ListItem>
-          <Link href="/">
+          <Link href="/" scroll={false}>
             <a className={router.pathname == "/" ? "text-blue-500" : ""}>
               Home
             </a>
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/club-info">
+          <Link href="/club-info" scroll={false}>
             <a
               className={router.pathname == "/club-info" ? "text-blue-500" : ""}
             >
@@ -30,14 +30,14 @@ export default function Navbar() {
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/news">
+          <Link href="/news" scroll={false}>
             <a className={router.pathname == "/news" ? "text-blue-500" : ""}>
               News
             </a>
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/contact">
+          <Link href="/contact" scroll={false}>
             <a className={router.pathname == "/contact" ? "text-blue-500" : ""}>
               Contact
             </a>
