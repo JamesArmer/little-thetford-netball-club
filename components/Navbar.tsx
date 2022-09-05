@@ -21,11 +21,25 @@ export default function Navbar() {
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/club-info" scroll={false}>
+          <Link href="/the-club" scroll={false}>
             <a
-              className={router.pathname == "/club-info" ? "text-blue-500" : ""}
+              className={router.pathname == "/the-club" ? "text-blue-500" : ""}
             >
-              Club Info
+              The Club
+            </a>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="/socials" scroll={false}>
+            <a className={router.pathname == "/socials" ? "text-blue-500" : ""}>
+              Socials
+            </a>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link href="/gallery" scroll={false}>
+            <a className={router.pathname == "/gallery" ? "text-blue-500" : ""}>
+              Gallery
             </a>
           </Link>
         </ListItem>

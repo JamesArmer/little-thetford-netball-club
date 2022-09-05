@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
+import georgieGiftPic from "../public/images/georgie_gift.jpeg";
 
 const News: NextPage = () => {
   return (
@@ -9,24 +11,42 @@ const News: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           News
         </h1>
-        <div className="w-3/5 py-2">
+        <div className="w-3/5 py-4">
+          <h2 className="text-2xl font-bold">Winter League 2021/22</h2>
           <p className="text-xl">
-            Walking Netball sessions start Tuesday 14th September 2021 at Ely
-            College indoor hall. Aimed at ladies who want to continue playing
-            netball but with the benefit of playing a slightly slower game,
-            still keeping you fit in a competitive environment. If you feel
-            regular netball is no longer for you, then come along and give it a
-            go and stay connected to the sport!
+            We were delighted to win division 5 of the Cambridge and District
+            Netball League (CDNL) Winter League and look forward to playing in
+            division 4.
           </p>
         </div>
-        <div className="w-3/5 py-2">
-          <h2 className="text-2xl font-bold">Our Supporters</h2>
+        <div className="w-3/5 py-4">
+          <h2 className="text-2xl font-bold">Summer League 2022</h2>
           <p className="text-xl">
-            Little Thetford Netball Club would like to acknowledge our recent
-            supporters- Sport England, Mick George Sports Fund, Living Sport,
-            Cambridgeshire Community Fund, Ridgeons, Skipton Building Society
-            Grassroots Giving and The People&apos;s Postcode Lottery.
+            This year we were placed in division C and were pleased to finish in
+            the top half of the division, coming fourth.
           </p>
+        </div>
+        <div className="w-3/5 py-8">
+          <h2 className="text-2xl font-bold">Georgie Heaton</h2>
+          <p className="text-xl">
+            We owe Georgie a great debt of gratitude in setting up the club 14
+            years ago. Georgie handed over her coaching role to Charlotte
+            earlier in the year as she has now moved to Cornwall. Georgie keeps
+            in touch and we hope to see her back at the club on her regular
+            visits.
+          </p>
+        </div>
+        <div className="relative leading-0 py-4">
+          <Image
+            src={georgieGiftPic}
+            alt="Goergie Heaton Leaving Gift"
+            title="Georgie Heaton with her leaving gift"
+            layout="intrinsic"
+            height={512}
+            width={384}
+            quality={100}
+            className={"h-auto w-4/5"}
+          />
         </div>
       </div>
     </Layout>
