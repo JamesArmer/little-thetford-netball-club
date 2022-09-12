@@ -28,7 +28,11 @@ const TheClub: NextPage = () => {
             Winter league matches are played at a central venue (currently
             Netherhall School in Cambridge) on a Saturday morning with around 16
             fixtures during the winter season (Oct-Apr). Please see link to{" "}
-            <a href="https://cdnl.org" className="underline">
+            <a
+              href="https://cdnl.org"
+              target="about:blank"
+              className="underline"
+            >
               CDNL.org
             </a>{" "}
             for more details.
@@ -50,15 +54,17 @@ const TheClub: NextPage = () => {
               In order to play in the leagues, players need to be registered
               with England Netball.
             </p>
-            <Image
-              src={englandNetballPic}
-              alt="England Netball"
-              layout="intrinsic"
-              height={1080}
-              width={1920}
-              quality={100}
-              className={"w-1/5"}
-            />
+            <a href="https://www.englandnetball.co.uk/" target="about:blank">
+              <Image
+                src={englandNetballPic}
+                alt="England Netball"
+                layout="intrinsic"
+                height={1080}
+                width={1920}
+                quality={100}
+                className={"w-1/5"}
+              />
+            </a>
           </div>
         </div>
         <div className="w-4/5 sm:w-3/5 py-2">
@@ -93,6 +99,15 @@ const TheClub: NextPage = () => {
             <li>Tesco</li>
           </ul>
         </div>
+        <div className="w-4/5 sm:w-3/5 py-2">
+          <h2 className="text-2xl font-bold">What does it cost?</h2>
+          <p className="text-xl">
+            Training is £3 per session or £15 per month (first session is free)
+            <br />
+            England Netball - registration and payment is direct with them,
+            £38.50 for 2022/23 season which includes insurance
+          </p>
+        </div>
         <div className="relative leading-0 py-4">
           <Image
             src={teamPhotoPic}
@@ -103,15 +118,6 @@ const TheClub: NextPage = () => {
             quality={100}
             className={"h-auto w-4/5"}
           />
-        </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
-          <h2 className="text-2xl font-bold">What does it cost?</h2>
-          <p className="text-xl">
-            Training is £3 per session or £15 per month (first session is free)
-            <br />
-            England Netball - registration and payment is direct with them,
-            £38.50 for 2022/23 season which includes insurance
-          </p>
         </div>
       </div>
     </Layout>

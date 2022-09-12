@@ -38,15 +38,15 @@ export default function Navbar() {
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/socials" scroll={false}>
+          <Link href="/fixtures" scroll={false}>
             <a
               className={
-                router.pathname == "/socials"
+                router.pathname == "/fixtures"
                   ? "text-blue-500"
                   : "hover:text-blue-500"
               }
             >
-              Socials
+              Fixtures
             </a>
           </Link>
         </ListItem>

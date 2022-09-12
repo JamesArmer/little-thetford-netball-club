@@ -11,7 +11,7 @@ export default function Footer() {
       <a
         className="flex items-center justify-center gap-2"
         href="https://facebook.com"
-        target="_blank"
+        target="about:blank"
         rel="noopener noreferrer"
       >
         Find us on <FaFacebook size={25} />
