@@ -3,48 +3,53 @@ import Layout from "../components/Layout";
 import React from "react";
 import { useFormik } from "formik";
 import { Input, Button } from "@chakra-ui/react";
+import { Textarea } from "@chakra-ui/react";
 
 const Contact: NextPage = () => {
   const formik = useFormik({
     initialValues: {
       name: "",
-      email: "",
+      subject: "",
       message: "",
     },
     onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
+      window.open(
+        `mailto:jamesarmer2@gmail.com?subject=${values.subject}&body=${values.message}`
+      );
     },
   });
   return (
     <Layout>
-      <div className="flex w-full flex-1 flex-col items-center justify-center px-20 py-4">
+      <div className="flex w-full flex-1 flex-col items-center justify-center sm:px-20 py-4">
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Contact Us
         </h1>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">Get in touch!</h2>
-          <form onSubmit={formik.handleSubmit}>
+          <form className="py-2" onSubmit={formik.handleSubmit}>
             <label htmlFor="name">Name</label>
             <Input
               id="name"
               name="name"
               type="name"
+              size="lg"
               onChange={formik.handleChange}
               value={formik.values.name}
             />
-            <label htmlFor="email">Email Address</label>
+            <label htmlFor="subject">Subject</label>
             <Input
-              id="email"
-              name="email"
-              type="email"
+              id="subject"
+              name="subject"
+              type="subject"
+              size="lg"
               onChange={formik.handleChange}
-              value={formik.values.email}
+              value={formik.values.subject}
             />
             <label htmlFor="message">Message</label>
-            <Input
+            <Textarea
               id="message"
               name="message"
-              type="message"
+              size="lg"
               onChange={formik.handleChange}
               value={formik.values.message}
             />

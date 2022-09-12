@@ -20,7 +20,7 @@ export default function Header() {
           quality={100}
           className={"h-auto w-full"}
         />
-        <h1 className="text-6xl font-bold absolute bottom-4 left-1/4">
+        <h1 className="text-2xl sm:text-6xl font-bold absolute bottom-2 left-10 sm:bottom-4 sm:left-1/4">
           Little Thetford Netball Club
         </h1>
       </div>

@@ -7,11 +7,11 @@ import georgieGiftPic from "../public/images/georgie_gift.jpeg";
 const News: NextPage = () => {
   return (
     <Layout>
-      <div className="flex w-full flex-1 flex-col items-center justify-center px-20 py-4">
+      <div className="flex w-full flex-1 flex-col items-center justify-center sm:px-20 py-4">
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           News
         </h1>
-        <div className="w-3/5 py-4">
+        <div className="w-4/5 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold">Winter League 2021/22</h2>
           <p className="text-xl">
             We were delighted to win division 5 of the Cambridge and District
@@ -19,14 +19,14 @@ const News: NextPage = () => {
             division 4.
           </p>
         </div>
-        <div className="w-3/5 py-4">
+        <div className="w-4/5 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold">Summer League 2022</h2>
           <p className="text-xl">
             This year we were placed in division C and were pleased to finish in
             the top half of the division, coming fourth.
           </p>
         </div>
-        <div className="w-3/5 py-8">
+        <div className="w-4/5 sm:w-3/5 py-8">
           <h2 className="text-2xl font-bold">Georgie Heaton</h2>
           <p className="text-xl">
             We owe Georgie a great debt of gratitude in setting up the club 14

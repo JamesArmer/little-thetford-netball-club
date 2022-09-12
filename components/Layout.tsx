@@ -8,7 +8,7 @@ import Header from "./Header";
  */
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex min-h-screen flex-col items-center">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main>{children}</main>
       <Footer />

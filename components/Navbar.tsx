@@ -15,7 +15,11 @@ export default function Navbar() {
       <ul className="list-none overflow-hidden text-white">
         <ListItem>
           <Link href="/" scroll={false}>
-            <a className={router.pathname == "/" ? "text-blue-500" : ""}>
+            <a
+              className={
+                router.pathname == "/" ? "text-blue-500" : "hover:text-blue-500"
+              }
+            >
               Home
             </a>
           </Link>
@@ -23,7 +27,11 @@ export default function Navbar() {
         <ListItem>
           <Link href="/the-club" scroll={false}>
             <a
-              className={router.pathname == "/the-club" ? "text-blue-500" : ""}
+              className={
+                router.pathname == "/the-club"
+                  ? "text-blue-500"
+                  : "hover:text-blue-500"
+              }
             >
               The Club
             </a>
@@ -31,28 +39,52 @@ export default function Navbar() {
         </ListItem>
         <ListItem>
           <Link href="/socials" scroll={false}>
-            <a className={router.pathname == "/socials" ? "text-blue-500" : ""}>
+            <a
+              className={
+                router.pathname == "/socials"
+                  ? "text-blue-500"
+                  : "hover:text-blue-500"
+              }
+            >
               Socials
             </a>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="/gallery" scroll={false}>
-            <a className={router.pathname == "/gallery" ? "text-blue-500" : ""}>
+            <a
+              className={
+                router.pathname == "/gallery"
+                  ? "text-blue-500"
+                  : "hover:text-blue-500"
+              }
+            >
               Gallery
             </a>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="/news" scroll={false}>
-            <a className={router.pathname == "/news" ? "text-blue-500" : ""}>
+            <a
+              className={
+                router.pathname == "/news"
+                  ? "text-blue-500"
+                  : "hover:text-blue-500"
+              }
+            >
               News
             </a>
           </Link>
         </ListItem>
         <ListItem>
           <Link href="/contact" scroll={false}>
-            <a className={router.pathname == "/contact" ? "text-blue-500" : ""}>
+            <a
+              className={
+                router.pathname == "/contact"
+                  ? "text-blue-500"
+                  : "hover:text-blue-500"
+              }
+            >
               Contact
             </a>
           </Link>

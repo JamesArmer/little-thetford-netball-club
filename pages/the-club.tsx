@@ -8,11 +8,11 @@ import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
 const TheClub: NextPage = () => {
   return (
     <Layout>
-      <div className="flex w-full flex-1 flex-col items-center justify-center px-20 py-4">
+      <div className="flex w-full flex-1 flex-col items-center justify-center sm:px-20 py-4">
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           The Club
         </h1>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">The Club</h2>
           <p className="text-xl">
             Little Thetford Netball Club started in 2008 as a social netball
@@ -22,7 +22,7 @@ const TheClub: NextPage = () => {
             joined the Cambridge and District Netball League.
           </p>
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">Winter League</h2>
           <p className="text-xl">
             Winter league matches are played at a central venue (currently
@@ -34,7 +34,7 @@ const TheClub: NextPage = () => {
             for more details.
           </p>
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">Summer League</h2>
           <p className="text-xl">
             Summer league matches are played at a central venue (currently
@@ -43,7 +43,7 @@ const TheClub: NextPage = () => {
             (Apr - Jul)
           </p>
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">England Netball</h2>
           <div className="flex flex-col">
             <p className="text-xl">
@@ -61,7 +61,7 @@ const TheClub: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">Umpires &amp; Coaches</h2>
           <p className="text-xl">
             Apart from playing, there are other opportunities to get involved in
@@ -80,7 +80,7 @@ const TheClub: NextPage = () => {
             coaches and fellow players with respect.
           </p>
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">Kit</h2>
           <p className="text-xl">
             We currently play in light blue/ dark blue/ white kit which is
@@ -104,7 +104,7 @@ const TheClub: NextPage = () => {
             className={"h-auto w-4/5"}
           />
         </div>
-        <div className="w-3/5 py-2">
+        <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold">What does it cost?</h2>
           <p className="text-xl">
             Training is £3 per session or £15 per month (first session is free)

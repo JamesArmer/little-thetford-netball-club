@@ -64,7 +64,7 @@ const GalleryPage: NextPage = () => {
   ];
   return (
     <Layout>
-      <Gallery photos={photos} />;
+      <Gallery photos={photos} />
     </Layout>
   );
 };
