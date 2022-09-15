@@ -14,7 +14,7 @@ const Contact: NextPage = () => {
     },
     onSubmit: (values) => {
       window.open(
-        `mailto:jamesarmer2@gmail.com?subject=${values.subject}&body=${values.message}`
+        `mailto:littlethetfordnetballclub@hotmail.com?subject=${values.subject}&body=${values.message}`
       );
     },
   });
@@ -25,7 +25,7 @@ const Contact: NextPage = () => {
           Contact Us
         </h1>
         <div className="w-4/5 sm:w-3/5 py-2">
-          <h2 className="text-2xl font-bold">Get in touch!</h2>
+          <h2 className="text-2xl font-bold leading-10">Get in touch!</h2>
           <form className="py-2" onSubmit={formik.handleSubmit}>
             <label htmlFor="name">Name</label>
             <Input
@@ -54,6 +54,16 @@ const Contact: NextPage = () => {
               value={formik.values.message}
             />
             <Button type="submit">Send</Button>
+            <p className="text-xl py-4">
+              Alternatively you can send an email direct to{" "}
+              <a
+                href="mailto:littlethetfordnetballclub@hotmail.com"
+                target="about:blank"
+                className="underline"
+              >
+                littlethetfordnetballclub@hotmail.com
+              </a>
+            </p>
           </form>
         </div>
       </div>

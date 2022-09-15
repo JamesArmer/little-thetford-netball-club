@@ -12,7 +12,9 @@ const News: NextPage = () => {
           News
         </h1>
         <div className="w-4/5 sm:w-3/5 py-4">
-          <h2 className="text-2xl font-bold">Winter League 2021/22</h2>
+          <h2 className="text-2xl font-bold leading-10">
+            Winter League 2021/22
+          </h2>
           <p className="text-xl">
             We were delighted to win division 5 of the Cambridge and District
             Netball League (CDNL) Winter League and look forward to playing in
@@ -20,14 +22,14 @@ const News: NextPage = () => {
           </p>
         </div>
         <div className="w-4/5 sm:w-3/5 py-4">
-          <h2 className="text-2xl font-bold">Summer League 2022</h2>
+          <h2 className="text-2xl font-bold leading-10">Summer League 2022</h2>
           <p className="text-xl">
             This year we were placed in division C and were pleased to finish in
             the top half of the division, coming fourth.
           </p>
         </div>
         <div className="w-4/5 sm:w-3/5 py-8">
-          <h2 className="text-2xl font-bold">Georgie Heaton</h2>
+          <h2 className="text-2xl font-bold leading-10">Georgie Heaton</h2>
           <p className="text-xl">
             We owe Georgie a great debt of gratitude in setting up the club 14
             years ago. Georgie handed over her coaching role to Charlotte
