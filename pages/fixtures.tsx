@@ -3,6 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import englandNetballPic from "../public/images/england_netball_cropped.jpg";
+import trainingPortrait2Pic from "../public/images/training_portrait_2.jpeg";
+import trainingSquare2Pic from "../public/images/training_square_2.jpeg";
 
 const Fixtures: NextPage = () => {
   return (
@@ -35,6 +37,28 @@ const Fixtures: NextPage = () => {
               Click here to visit the CDNL Facebook Page for details
             </a>
           </p>
+        </div>
+        <div className="flex w-4/5 sm:w-3/5 py-4">
+          <div className="flex-auto pr-2">
+            <Image
+              src={trainingSquare2Pic}
+              alt="Square Training Photo #2"
+              layout="intrinsic"
+              height={1024}
+              width={1024}
+              quality={100}
+            />
+          </div>
+          <div className="flex-auto pl-2">
+            <Image
+              src={trainingPortrait2Pic}
+              alt="Portrait Training Photo #2"
+              layout="intrinsic"
+              height={1024}
+              width={474}
+              quality={100}
+            />
+          </div>
         </div>
         <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">Summer League</h2>

@@ -3,6 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
+import trainingPortrait1Pic from "../public/images/training_portrait_1.jpeg";
+import trainingPortrait3Pic from "../public/images/training_portrait_3.jpeg";
 
 const TheClub: NextPage = () => {
   return (
@@ -21,6 +23,28 @@ const TheClub: NextPage = () => {
             couple of years of social netball and friendly fixtures we joined
             the Cambridge and District Netball League.
           </p>
+        </div>
+        <div className="flex w-4/5 sm:w-3/5 py-4">
+          <div className="flex-1 pr-2">
+            <Image
+              src={trainingPortrait1Pic}
+              alt="Portrait Training Photo #1"
+              layout="intrinsic"
+              height={1024}
+              width={474}
+              quality={100}
+            />
+          </div>
+          <div className="flex-1 pl-2">
+            <Image
+              src={trainingPortrait3Pic}
+              alt="Portrait Training Photo #3"
+              layout="intrinsic"
+              height={1024}
+              width={474}
+              quality={100}
+            />
+          </div>
         </div>
         <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">
@@ -73,7 +97,6 @@ const TheClub: NextPage = () => {
             height={525}
             width={1183}
             quality={100}
-            className={"h-auto w-4/5"}
           />
         </div>
       </div>

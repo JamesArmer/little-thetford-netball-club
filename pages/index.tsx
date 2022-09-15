@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import React from "react";
 import Image from "next/image";
-import trainingPic from "../public/images/training.jpeg";
+import trainingPic from "../public/images/training_square_1.jpeg";
 import ballPic from "../public/images/ball_and_net.jpeg";
 
 const Home: NextPage = () => {
@@ -31,28 +31,33 @@ const Home: NextPage = () => {
             We also arrange occasional friendly matches with other local clubs.
           </p>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
-          <h2 className="text-2xl font-bold leading-10">Training</h2>
-          <p className="text-xl">
-            We train every Tuesday on the MUGA (Multi-Use Games Area) at the
-            Little Thetford recreation ground from 18.30 to 20.00. Little
-            Thetford village is located a couple of miles south of Ely in
-            Cambridgeshire just off the A10. We are part of Little Thetford
-            Sports and Social Club and have use of the changing room facilities.
-            We welcome any new players - whether current players, returning to
-            the sport, or entirely new to netball and would like to give it a
-            go.
-          </p>
-        </div>
-        <div className="m-auto py-6 w-4/5 sm:w-2/5">
-          <Image
-            src={trainingPic}
-            alt="Team Training"
-            layout="intrinsic"
-            height={1024}
-            width={1024}
-            quality={100}
-          />
+        <div className="sm:flex w-4/5 sm:w-3/5 py-6">
+          <div className="sm:flex-1 sm:pr-4">
+            <h2 className="text-2xl font-bold leading-10">Training</h2>
+            <p className="text-xl">
+              We train every Tuesday on the MUGA (Multi-Use Games Area) at the
+              Little Thetford recreation ground from 18.30 to 20.00. Little
+              Thetford village is located a couple of miles south of Ely in
+              Cambridgeshire just off the A10. We are part of Little Thetford
+              Sports and Social Club and have use of the changing room
+              facilities.
+              <br />
+              <br />
+              We welcome any new players - whether current players, returning to
+              the sport, or entirely new to netball and would like to give it a
+              go.
+            </p>
+          </div>
+          <div className="sm:flex-1 sm:pl-4 m-auto pt-8 w-4/5 sm:w-2/5">
+            <Image
+              src={trainingPic}
+              alt="Team Training"
+              layout="intrinsic"
+              height={1024}
+              width={1024}
+              quality={100}
+            />
+          </div>
         </div>
         <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">
