@@ -65,7 +65,7 @@ const TheClub: NextPage = () => {
             £38.50 for 2022/23 season which includes insurance
           </p>
         </div>
-        <div className="relative leading-0 py-4">
+        <div className="w-full sm:w-3/5 py-4">
           <Image
             src={teamPhotoPic}
             alt="Team Photo Prosecco"
