@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import React from "react";
 import Image from "next/image";
-import trainingPic from "../public/images/training_square_1.jpeg";
-import ballPic from "../public/images/ball_and_net.jpeg";
+import squareTrainingPic2 from "../public/images/training_square_2.jpeg";
+import landscapeTrainingPic1 from "../public/images/training_landscape.jpeg";
 
 const Home: NextPage = () => {
   return (
@@ -34,11 +34,18 @@ const Home: NextPage = () => {
         <div className="sm:flex w-4/5 sm:w-3/5 py-6">
           <div className="sm:flex-1 sm:pr-4">
             <h2 className="text-2xl font-bold leading-10">Training</h2>
+            <ul className="text-xl list-disc pl-10 pt-4">
+              <li>
+                <b>Where</b> - Little Thetford Recreation Ground MUGA
+              </li>
+              <li>
+                <b>When</b> - every Tuesday 18:30-20:00
+              </li>
+            </ul>
             <p className="text-xl">
-              We train every Tuesday on the MUGA (Multi-Use Games Area) at the
-              Little Thetford recreation ground from 18.30 to 20.00. Little
-              Thetford village is located a couple of miles south of Ely in
-              Cambridgeshire just off the A10. We are part of Little Thetford
+              <br />
+              Little Thetford village is located a couple of miles south of Ely
+              in Cambridgeshire just off the A10. We are part of Little Thetford
               Sports and Social Club and have use of the changing room
               facilities.
               <br />
@@ -48,9 +55,9 @@ const Home: NextPage = () => {
               go.
             </p>
           </div>
-          <div className="sm:flex-1 sm:pl-4 m-auto pt-8 w-4/5 sm:w-2/5">
+          <div className="sm:flex-1 sm:pl-4 m-auto pt-10 w-4/5 sm:w-2/5">
             <Image
-              src={trainingPic}
+              src={squareTrainingPic2}
               alt="Team Training"
               layout="intrinsic"
               height={1024}
@@ -60,9 +67,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="w-4/5 sm:w-3/5 py-2">
-          <h2 className="text-2xl font-bold leading-10">
-            Other Information - safety on court
-          </h2>
+          <h2 className="text-2xl font-bold leading-10">Safety on court</h2>
           <p className="text-xl">
             We want everyone to stay safe and would ask that anyone taking part
             in netball:
@@ -74,13 +79,13 @@ const Home: NextPage = () => {
             <li>Ensures nails are short</li>
           </ul>
         </div>
-        <div className="m-auto py-6 w-4/5 sm:w-2/5">
+        <div className="m-auto py-6 w-4/5 sm:w-3/5">
           <Image
-            src={ballPic}
+            src={landscapeTrainingPic1}
             alt="Netball Goal"
             layout="intrinsic"
-            height={1024}
-            width={1024}
+            height={1536}
+            width={2048}
             quality={100}
           />
         </div>

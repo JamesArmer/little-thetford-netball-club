@@ -3,8 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
-import trainingPortrait1Pic from "../public/images/training_portrait_1.jpeg";
-import trainingPortrait3Pic from "../public/images/training_portrait_3.jpeg";
+import trainingLandscapeGeorgeLeaving from "../public/images/team_george_leaving.jpeg";
+import teamLandscapeGrass from "../public/images/team_grass.jpeg";
 
 const TheClub: NextPage = () => {
   return (
@@ -27,21 +27,11 @@ const TheClub: NextPage = () => {
         <div className="flex w-4/5 sm:w-3/5 py-4">
           <div className="flex-1 pr-2">
             <Image
-              src={trainingPortrait1Pic}
-              alt="Portrait Training Photo #1"
+              src={trainingLandscapeGeorgeLeaving}
+              alt="Portrait Training Photo George Leaving"
               layout="intrinsic"
-              height={1024}
-              width={474}
-              quality={100}
-            />
-          </div>
-          <div className="flex-1 pl-2">
-            <Image
-              src={trainingPortrait3Pic}
-              alt="Portrait Training Photo #3"
-              layout="intrinsic"
-              height={1024}
-              width={474}
+              height={1092}
+              width={1183}
               quality={100}
             />
           </div>
@@ -80,14 +70,30 @@ const TheClub: NextPage = () => {
             <li>Tesco</li>
           </ul>
         </div>
+        <div className="flex w-4/5 sm:w-3/5 py-4">
+          <div className="flex-1 pr-2">
+            <Image
+              src={teamLandscapeGrass}
+              alt="Portrait Training Photo George Leaving"
+              layout="intrinsic"
+              height={1200}
+              width={1600}
+              quality={100}
+            />
+          </div>
+        </div>
         <div className="w-4/5 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">What does it cost?</h2>
-          <p className="text-xl">
-            Training is £3 per session or £15 per month (first session is free)
-            <br />
-            England Netball - registration and payment is direct with them,
-            £38.50 for 2022/23 season which includes insurance
-          </p>
+          <ul className="text-xl list-disc pl-10 pt-2">
+            <li>
+              Training is £3 per session or £15 per month (first session is
+              free)
+            </li>
+            <li>
+              England Netball - registration and payment is direct with them,
+              £38.50 for 2022/23 season which includes insurance
+            </li>
+          </ul>
         </div>
         <div className="w-full sm:w-3/5 py-4">
           <Image

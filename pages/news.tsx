@@ -3,6 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import georgieGiftPic from "../public/images/georgie_gift.jpeg";
+import teamMiniProsecco2 from "../public/images/team_mini_prosecoo_2.jpeg";
+import teamSummerLeaguePic from "../public/images/summer_league_team.jpeg";
 
 const News: NextPage = () => {
   return (
@@ -21,6 +23,18 @@ const News: NextPage = () => {
             division 4.
           </p>
         </div>
+        <div className="flex w-4/5 sm:w-3/5 py-4">
+          <div className="flex-auto pr-2">
+            <Image
+              src={teamMiniProsecco2}
+              alt="Winter League Celebration"
+              layout="intrinsic"
+              height={1200}
+              width={1600}
+              quality={100}
+            />
+          </div>
+        </div>
         <div className="w-4/5 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Summer League 2022</h2>
           <p className="text-xl">
@@ -28,7 +42,19 @@ const News: NextPage = () => {
             the top half of the division, coming fourth.
           </p>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-8">
+        <div className="flex w-4/5 sm:w-3/5 py-4">
+          <div className="flex-auto pr-2">
+            <Image
+              src={teamSummerLeaguePic}
+              alt="Summer League Team"
+              layout="intrinsic"
+              height={1200}
+              width={1600}
+              quality={100}
+            />
+          </div>
+        </div>
+        <div className="w-4/5 sm:w-3/5 py-6">
           <h2 className="text-2xl font-bold leading-10">Georgie Heaton</h2>
           <p className="text-xl">
             We owe Georgie a great debt of gratitude in setting up the club 14
@@ -38,7 +64,7 @@ const News: NextPage = () => {
             visits.
           </p>
         </div>
-        <div className="relative leading-0 py-4">
+        <div className="relative leading-0 py-2">
           <Image
             src={georgieGiftPic}
             alt="Goergie Heaton Leaving Gift"
