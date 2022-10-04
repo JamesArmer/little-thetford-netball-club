@@ -3,8 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
-import trainingLandscapeGeorgeLeaving from "../public/images/team_george_leaving.jpeg";
-import teamLandscapeGrass from "../public/images/team_grass.jpeg";
+import trainingLandscapeGeorgeLeaving from "../public/images/team_george_leaving_cropped.jpeg";
+import teamLandscapeGrass from "../public/images/team_grass_cropped.jpeg";
 
 const TheClub: NextPage = () => {
   return (
@@ -24,14 +24,14 @@ const TheClub: NextPage = () => {
             the Cambridge and District Netball League.
           </p>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={trainingLandscapeGeorgeLeaving}
               alt="Portrait Training Photo George Leaving"
               layout="intrinsic"
-              height={1092}
-              width={1183}
+              height={1096}
+              width={1199}
               quality={100}
             />
           </div>
@@ -70,14 +70,14 @@ const TheClub: NextPage = () => {
             <li>Tesco</li>
           </ul>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={teamLandscapeGrass}
               alt="Portrait Training Photo George Leaving"
               layout="intrinsic"
-              height={1200}
-              width={1600}
+              height={933}
+              width={1236}
               quality={100}
             />
           </div>

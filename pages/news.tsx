@@ -3,8 +3,8 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import georgieGiftPic from "../public/images/georgie_gift.jpeg";
-import teamMiniProsecco2 from "../public/images/team_mini_prosecoo_2.jpeg";
-import teamSummerLeaguePic from "../public/images/summer_league_team.jpeg";
+import teamMiniProsecco2 from "../public/images/team_mini_prosecoo_2_cropped.jpeg";
+import teamSummerLeaguePic from "../public/images/summer_league_team_cropped.jpeg";
 
 const News: NextPage = () => {
   return (
@@ -23,14 +23,14 @@ const News: NextPage = () => {
             division 4.
           </p>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={teamMiniProsecco2}
               alt="Winter League Celebration"
               layout="intrinsic"
-              height={1200}
-              width={1600}
+              height={782}
+              width={1257}
               quality={100}
             />
           </div>
@@ -42,14 +42,14 @@ const News: NextPage = () => {
             the top half of the division, coming fourth.
           </p>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={teamSummerLeaguePic}
               alt="Summer League Team"
               layout="intrinsic"
-              height={1200}
-              width={1600}
+              height={574}
+              width={960}
               quality={100}
             />
           </div>

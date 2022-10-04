@@ -55,7 +55,7 @@ const Home: NextPage = () => {
               go.
             </p>
           </div>
-          <div className="sm:flex-1 sm:pl-4 m-auto pt-10 w-4/5 sm:w-2/5">
+          <div className="sm:flex-1 sm:pl-4 m-auto pt-10 w-5/5 sm:w-2/5">
             <Image
               src={squareTrainingPic2}
               alt="Team Training"
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
             <li>Ensures nails are short</li>
           </ul>
         </div>
-        <div className="m-auto py-6 w-4/5 sm:w-3/5">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <Image
             src={landscapeTrainingPic1}
             alt="Netball Goal"

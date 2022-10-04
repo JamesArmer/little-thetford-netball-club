@@ -77,7 +77,7 @@ const Fixtures: NextPage = () => {
             </a>
           </p>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={trainingPortrait2Pic}
