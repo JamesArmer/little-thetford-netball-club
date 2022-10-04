@@ -43,7 +43,7 @@ const News: NextPage = () => {
           </p>
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
-          <div className="flex-auto pr-2">
+          <div className="flex-auto">
             <Image
               src={teamSummerLeaguePic}
               alt="Summer League Team"
@@ -63,18 +63,16 @@ const News: NextPage = () => {
             in touch and we hope to see her back at the club on her regular
             visits.
           </p>
-        </div>
-        <div className="relative leading-0 py-2">
-          <Image
-            src={georgieGiftPic}
-            alt="Goergie Heaton Leaving Gift"
-            title="Georgie Heaton with her leaving gift"
-            layout="intrinsic"
-            height={512}
-            width={384}
-            quality={100}
-            className={"h-auto w-11/12"}
-          />
+          <div className="sm:w-3/5 m-auto py-6 leading-0">
+            <Image
+              src={georgieGiftPic}
+              alt="Goergie Heaton Leaving Gift"
+              layout="intrinsic"
+              height={512}
+              width={384}
+              quality={100}
+            />
+          </div>
         </div>
       </div>
     </Layout>
