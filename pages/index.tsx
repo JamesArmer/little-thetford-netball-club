@@ -52,8 +52,8 @@ const Home: NextPage = () => {
             src={landscapeTrainingPic1}
             alt="Team Training Drill"
             layout="intrinsic"
-            height={1536}
-            width={2048}
+            height={768}
+            width={1024}
             quality={100}
           />
         </div>
