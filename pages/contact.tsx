@@ -24,7 +24,7 @@ const Contact: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Contact Us
         </h1>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">Get in touch!</h2>
           <form className="py-2" onSubmit={formik.handleSubmit}>
             <label htmlFor="name">Name</label>

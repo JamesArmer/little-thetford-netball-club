@@ -13,7 +13,7 @@ const TheClub: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           The Club
         </h1>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">The Club</h2>
           <p className="text-xl">
             Little Thetford Netball Club started in 2008 as a social netball
@@ -24,7 +24,7 @@ const TheClub: NextPage = () => {
             the Cambridge and District Netball League.
           </p>
         </div>
-        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={trainingLandscapeGeorgeLeaving}
@@ -36,7 +36,7 @@ const TheClub: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">
             Umpires &amp; Coaches
           </h2>
@@ -57,20 +57,20 @@ const TheClub: NextPage = () => {
             coaches and fellow players with respect.
           </p>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">Kit</h2>
           <p className="text-xl">
             We currently play in light blue/ dark blue/ white kit which is
             provided by the club. We would like to thank our supporters for
             their assistance with kit purchase:
           </p>
-          <ul className="text-xl list-disc pl-10">
+          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 leading-relaxed">
             <li>Paradise Sports Centre</li>
             <li>Waitrose</li>
             <li>Tesco</li>
           </ul>
         </div>
-        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={teamLandscapeGrass}
@@ -82,9 +82,9 @@ const TheClub: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">What does it cost?</h2>
-          <ul className="text-xl list-disc pl-10 pt-2">
+          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 ">
             <li>
               Training is £3 per session or £15 per month (first session is
               free)
@@ -95,7 +95,7 @@ const TheClub: NextPage = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full sm:w-3/5 py-4">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <Image
             src={teamPhotoPic}
             alt="Team Photo Prosecco"

@@ -14,7 +14,7 @@ const Fixtures: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Fixtures
         </h1>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">Winter League</h2>
           <p className="text-xl">
             Winter league matches are played at a central venue (currently
@@ -39,7 +39,7 @@ const Fixtures: NextPage = () => {
             </a>
           </p>
         </div>
-        <div className="flex w-4/5 sm:w-3/5 py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-4">
           <div className="flex-auto pr-2">
             <Image
               src={cdnlPic}
@@ -51,7 +51,7 @@ const Fixtures: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">Summer League</h2>
           <p className="text-xl">
             Summer league matches are played at a central venue (currently
@@ -77,7 +77,7 @@ const Fixtures: NextPage = () => {
             </a>
           </p>
         </div>
-        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={trainingPortrait2Pic}
@@ -99,14 +99,14 @@ const Fixtures: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">England Netball</h2>
           <div>
             <p className="text-xl">
               In order to play in the leagues, players need to be registered
               with England Netball.
             </p>
-            <div className="m-auto py-6 w-4/5 sm:w-3/5">
+            <div className="m-auto py-6 w-11/12 sm:w-3/5">
               <Image
                 src={englandNetballPic}
                 alt="England Netball"

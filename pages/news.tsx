@@ -13,7 +13,7 @@ const News: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           News
         </h1>
-        <div className="w-4/5 sm:w-3/5 py-4">
+        <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">
             Winter League 2021/22
           </h2>
@@ -23,7 +23,7 @@ const News: NextPage = () => {
             division 4.
           </p>
         </div>
-        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={teamMiniProsecco2}
@@ -35,14 +35,14 @@ const News: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-4">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Summer League 2022</h2>
           <p className="text-xl">
             This year we were placed in division C and were pleased to finish in
             the top half of the division, coming fourth.
           </p>
         </div>
-        <div className="flex w-5/5 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={teamSummerLeaguePic}
@@ -54,7 +54,7 @@ const News: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 sm:w-3/5 py-6">
+        <div className="w-11/12 sm:w-3/5 py-6">
           <h2 className="text-2xl font-bold leading-10">Georgie Heaton</h2>
           <p className="text-xl">
             We owe Georgie a great debt of gratitude in setting up the club 14
@@ -73,7 +73,7 @@ const News: NextPage = () => {
             height={512}
             width={384}
             quality={100}
-            className={"h-auto w-4/5"}
+            className={"h-auto w-11/12"}
           />
         </div>
       </div>
