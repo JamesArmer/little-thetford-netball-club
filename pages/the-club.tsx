@@ -28,7 +28,7 @@ const TheClub: NextPage = () => {
           <div className="flex-1 pr-2">
             <Image
               src={trainingLandscapeGeorgeLeaving}
-              alt="Portrait Training Photo George Leaving"
+              alt="Portrait Training Photo Georgie Leaving"
               layout="intrinsic"
               height={1096}
               width={1199}
@@ -74,7 +74,7 @@ const TheClub: NextPage = () => {
           <div className="flex-1 pr-2">
             <Image
               src={teamLandscapeGrass}
-              alt="Portrait Training Photo George Leaving"
+              alt="Landscape Team Showing Off Their Kit"
               layout="intrinsic"
               height={933}
               width={1236}
@@ -98,7 +98,7 @@ const TheClub: NextPage = () => {
         <div className="w-11/12 sm:w-3/5 py-4">
           <Image
             src={teamPhotoPic}
-            alt="Team Photo Prosecco"
+            alt="Team Photo Prosecco Celebration"
             layout="intrinsic"
             height={525}
             width={1183}

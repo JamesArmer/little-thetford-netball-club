@@ -81,7 +81,7 @@ const Fixtures: NextPage = () => {
           <div className="flex-auto pr-2">
             <Image
               src={trainingPortrait2Pic}
-              alt="Portrait Training Photo #2"
+              alt="Portrait Training Throwing Ball"
               layout="intrinsic"
               height={1024}
               width={474}
@@ -91,7 +91,7 @@ const Fixtures: NextPage = () => {
           <div className="flex-auto pl-2">
             <Image
               src={ballAndNetPic}
-              alt="Square Training Photo #2"
+              alt="Ball Going Into Net"
               layout="intrinsic"
               height={1024}
               width={1024}

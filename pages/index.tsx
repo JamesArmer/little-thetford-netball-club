@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
           <Image
             src={landscapeTrainingPic1}
-            alt="Team Training"
+            alt="Team Training Drill"
             layout="intrinsic"
             height={1536}
             width={2048}
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
           <div className="sm:pl-4 sm:pt-14 sm:w-2/5 m-auto">
             <Image
               src={squareTrainingPic2}
-              alt="Team Training"
+              alt="Shooter Scoring A Goal"
               layout="intrinsic"
               height={1024}
               width={1024}
