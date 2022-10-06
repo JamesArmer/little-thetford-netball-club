@@ -9,6 +9,9 @@ module.exports = {
       lineHeight: {
         0: "0",
       },
+      fontSize: {
+        "2xs": "0.625rem",
+      },
     },
   },
   plugins: [],

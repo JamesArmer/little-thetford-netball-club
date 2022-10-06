@@ -7,15 +7,28 @@ import React from "react";
  */
 export default function Footer() {
   return (
-    <footer className="flex h-24 w-full items-center justify-center border-t">
-      <a
-        className="flex items-center justify-center gap-2"
-        href="https://facebook.com"
-        target="about:blank"
-        rel="noopener noreferrer"
-      >
-        Find us on <FaFacebook size={25} />
-      </a>
+    <footer className="flex h-24 border-t">
+      <div className="flex-1">
+        <p className="text-2xs sm:text-xs sm:absolute sm:bottom-3 sm:left-2">
+          All media on this site is the sole property of Little Thetford Netball
+          <br />
+          Club and exclusive permissions must be obtained before use.
+        </p>
+      </div>
+      <div className="flex flex-1 items-center justify-center">
+        <a
+          href="https://facebook.com"
+          target="about:blank"
+          rel="noopener noreferrer"
+        >
+          Find us on <FaFacebook size={25} className="inline-block" />
+        </a>
+      </div>
+      <div className="flex-1">
+        <p className="text-2xs sm:text-xs sm:absolute sm:bottom-3 sm:right-2">
+          <br />© 2022 Little Thetford Netball Club. All rights reserved.
+        </p>
+      </div>
     </footer>
   );
 }
