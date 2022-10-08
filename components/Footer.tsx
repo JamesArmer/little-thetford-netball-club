@@ -7,15 +7,8 @@ import React from "react";
  */
 export default function Footer() {
   return (
-    <footer className="flex h-24 border-t">
-      <div className="flex-1">
-        <p className="text-2xs sm:text-xs sm:absolute sm:bottom-3 sm:left-2">
-          All media on this site is the sole property of Little Thetford Netball
-          <br />
-          Club and exclusive permissions must be obtained before use.
-        </p>
-      </div>
-      <div className="flex flex-1 items-center justify-center">
+    <footer className="h-24 border-t">
+      <div className="w-full flex items-center justify-center py-4 sm:py-8">
         <a
           href="https://facebook.com"
           target="about:blank"
@@ -24,8 +17,8 @@ export default function Footer() {
           Find us on <FaFacebook size={25} className="inline-block" />
         </a>
       </div>
-      <div className="flex-1">
-        <p className="text-2xs sm:text-xs sm:absolute sm:bottom-3 sm:right-2">
+      <div className="w-full">
+        <p className="text-2xs sm:text-xs sm:absolute sm:bottom-2 sm:right-2">
           <br />© 2022 Little Thetford Netball Club. All rights reserved.
         </p>
       </div>

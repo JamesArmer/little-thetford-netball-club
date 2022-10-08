@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </div>
         <div className="w-11/12 sm:w-3/5 py-6">
           <h2 className="text-2xl font-bold leading-10">Training</h2>
-          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-4">
+          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-4 leading-relaxed">
             <li>
               <b>Where</b> - Little Thetford Recreation Ground MUGA
             </li>
@@ -52,8 +52,8 @@ const Home: NextPage = () => {
             src={landscapeTrainingPic1}
             alt="Team Training Drill"
             layout="intrinsic"
-            height={768}
-            width={1024}
+            height={576}
+            width={768}
             quality={100}
           />
         </div>

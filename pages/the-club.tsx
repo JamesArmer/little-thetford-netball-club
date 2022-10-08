@@ -84,7 +84,7 @@ const TheClub: NextPage = () => {
         </div>
         <div className="w-11/12 sm:w-3/5 py-2">
           <h2 className="text-2xl font-bold leading-10">What does it cost?</h2>
-          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 ">
+          <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 leading-relaxed">
             <li>
               Training is £3 per session or £15 per month (first session is
               free)
