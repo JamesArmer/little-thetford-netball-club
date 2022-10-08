@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import React from "react";
 import Image from "next/image";
 import squareTrainingPic2 from "../public/images/training_square_2.jpeg";
-import landscapeTrainingPic1 from "../public/images/training_landscape.jpeg";
+import landscapeTrainingPic1 from "../public/images/training_landscape_resized.jpeg";
 
 const Home: NextPage = () => {
   return (
@@ -52,8 +52,8 @@ const Home: NextPage = () => {
             src={landscapeTrainingPic1}
             alt="Team Training Drill"
             layout="intrinsic"
-            height={576}
-            width={768}
+            height={768}
+            width={1024}
             quality={100}
           />
         </div>
