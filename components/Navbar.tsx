@@ -14,79 +14,79 @@ export default function Navbar() {
     <div className="flex justify-center bg-black">
       <ul className="list-none overflow-hidden text-white">
         <ListItem>
-          <Link href="/" scroll={false}>
-            <a
-              className={
-                router.pathname == "/" ? "text-blue-500" : "hover:text-blue-500"
-              }
-            >
-              Home
-            </a>
+          <Link
+            href="/"
+            scroll={false}
+            className={
+              router.pathname == "/" ? "text-blue-500" : "hover:text-blue-500"
+            }
+          >
+            Home
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/the-club" scroll={false}>
-            <a
-              className={
-                router.pathname == "/the-club"
-                  ? "text-blue-500"
-                  : "hover:text-blue-500"
-              }
-            >
-              The Club
-            </a>
+          <Link
+            href="/the-club"
+            scroll={false}
+            className={
+              router.pathname == "/the-club"
+                ? "text-blue-500"
+                : "hover:text-blue-500"
+            }
+          >
+            The Club
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/fixtures" scroll={false}>
-            <a
-              className={
-                router.pathname == "/fixtures"
-                  ? "text-blue-500"
-                  : "hover:text-blue-500"
-              }
-            >
-              Fixtures
-            </a>
+          <Link
+            href="/news"
+            scroll={false}
+            className={
+              router.pathname == "/news"
+                ? "text-blue-500"
+                : "hover:text-blue-500"
+            }
+          >
+            News
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/gallery" scroll={false}>
-            <a
-              className={
-                router.pathname == "/gallery"
-                  ? "text-blue-500"
-                  : "hover:text-blue-500"
-              }
-            >
-              Gallery
-            </a>
+          <Link
+            href="/fixtures"
+            scroll={false}
+            className={
+              router.pathname == "/fixtures"
+                ? "text-blue-500"
+                : "hover:text-blue-500"
+            }
+          >
+            Fixtures
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/news" scroll={false}>
-            <a
-              className={
-                router.pathname == "/news"
-                  ? "text-blue-500"
-                  : "hover:text-blue-500"
-              }
-            >
-              News
-            </a>
+          <Link
+            href="/gallery"
+            scroll={false}
+            className={
+              router.pathname == "/gallery"
+                ? "text-blue-500"
+                : "hover:text-blue-500"
+            }
+          >
+            Gallery
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/contact" scroll={false}>
-            <a
-              className={
-                router.pathname == "/contact"
-                  ? "text-blue-500"
-                  : "hover:text-blue-500"
-              }
-            >
-              Contact
-            </a>
+          <Link
+            href="/contact"
+            scroll={false}
+            className={
+              router.pathname == "/contact"
+                ? "text-blue-500"
+                : "hover:text-blue-500"
+            }
+          >
+            Contact
           </Link>
         </ListItem>
       </ul>
