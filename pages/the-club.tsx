@@ -5,6 +5,7 @@ import React from "react";
 import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
 import trainingLandscapeGeorgeLeaving from "../public/images/team_george_leaving_cropped.jpeg";
 import teamLandscapeGrass from "../public/images/team_grass_cropped.jpeg";
+import TMWFLogo from "../public/images/TMWF-site-icon.png";
 
 const TheClub: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const TheClub: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           The Club
         </h1>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">The Club</h2>
           <p className="text-xl">
             Little Thetford Netball Club started in 2008 as a social netball
@@ -24,7 +25,7 @@ const TheClub: NextPage = () => {
             the Cambridge and District Netball League.
           </p>
         </div>
-        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={trainingLandscapeGeorgeLeaving}
@@ -36,7 +37,7 @@ const TheClub: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">
             Umpires &amp; Coaches
           </h2>
@@ -57,7 +58,7 @@ const TheClub: NextPage = () => {
             coaches and fellow players with respect.
           </p>
         </div>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Kit</h2>
           <p className="text-xl">
             We currently play in light blue/ dark blue/ white kit which is
@@ -65,12 +66,11 @@ const TheClub: NextPage = () => {
             their assistance with kit purchase:
           </p>
           <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 leading-relaxed">
-            <li>Paradise Sports Centre</li>
-            <li>Waitrose</li>
-            <li>Tesco</li>
+            <li>Cambridge Scaffolding</li>
+            <li>Mark Smith Electrical Services</li>
           </ul>
         </div>
-        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={teamLandscapeGrass}
@@ -82,16 +82,48 @@ const TheClub: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
+          <h2 className="text-2xl font-bold leading-10">Charities</h2>
+          <p className="text-xl">
+            We are also proudly associated with The Malcolm Whales Foundation -
+            taking steps to beat cancer.
+          </p>
+        </div>
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
+          <div className="m-auto w-11/12 sm:w-3/5">
+            <a
+              href="https://tmwf.co.uk/"
+              target="about:blank"
+              className="underline"
+            >
+              <Image
+                src={TMWFLogo}
+                alt="The Malcolm Whales Foundation logo"
+                layout="intrinsic"
+                height={512}
+                width={512}
+                quality={100}
+              />
+            </a>
+          </div>
+        </div>
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">What does it cost?</h2>
           <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 leading-relaxed">
             <li>
-              Training is £3 per session or £15 per month (first session is
-              free)
+              First session free and small monthly training contribution
+              thereafter
             </li>
             <li>
-              England Netball - registration and payment is direct with them,
-              £38.50 for 2022/23 season which includes insurance
+              England Netball - registration and payment is direct with them;
+              please see their website for current details: <br />
+              <a
+                href="https://www.englandnetball.co.uk/"
+                target="about:blank"
+                className="underline"
+              >
+                https://www.englandnetball.co.uk/
+              </a>
             </li>
           </ul>
         </div>
@@ -104,6 +136,15 @@ const TheClub: NextPage = () => {
             width={1183}
             quality={100}
           />
+        </div>
+        <div className="w-11/12 sm:w-3/5 py-4">
+          <h2 className="text-2xl font-bold leading-10">
+            What can you do to help the club?
+          </h2>
+          <p className="text-xl">
+            There are lots of ways to help and any volunteering is very welcome
+            - please just ask.
+          </p>
         </div>
       </div>
     </Layout>

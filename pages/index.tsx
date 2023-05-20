@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <h1 className="w-11/12 sm:w-3/5 text-4xl text-center font-bold text-blue-500 py-8">
           Welcome to Little Thetford Netball Club!
         </h1>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <p className="text-xl">
             Little Thetford Netball Club welcomes players of all abilities and
             are always delighted to have new members. We are mostly adult
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             go.
           </p>
         </div>
-        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <Image
             src={landscapeTrainingPic1}
             alt="Team Training Drill"
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="sm:flex sm:w-3/5 w-11/12">
-          <div className="w-11/12 sm:w-3/5 py-2">
+          <div className="w-11/12 sm:w-3/5 py-4">
             <h2 className="text-2xl font-bold leading-10">Safety on court</h2>
             <p className="text-xl leading-relaxed">
               We want everyone to stay safe and would ask that anyone taking

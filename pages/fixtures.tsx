@@ -14,7 +14,7 @@ const Fixtures: NextPage = () => {
         <h1 className="text-4xl text-center font-bold text-blue-500 py-8">
           Fixtures
         </h1>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Winter League</h2>
           <p className="text-xl">
             Winter league matches are played at a central venue (currently
@@ -41,17 +41,23 @@ const Fixtures: NextPage = () => {
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-4">
           <div className="flex-auto pr-2">
-            <Image
-              src={cdnlPic}
-              alt="Cambridge and District Netball League"
-              layout="intrinsic"
-              height={193}
-              width={872}
-              quality={100}
-            />
+            <a
+              href="https://cdnl.org/winter-league-2022-23-fixtures-results"
+              target="about:blank"
+              className="underline leading-10"
+            >
+              <Image
+                src={cdnlPic}
+                alt="Cambridge and District Netball League"
+                layout="intrinsic"
+                height={193}
+                width={872}
+                quality={100}
+              />
+            </a>
           </div>
         </div>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Summer League</h2>
           <p className="text-xl">
             Summer league matches are played at a central venue (currently
@@ -77,7 +83,7 @@ const Fixtures: NextPage = () => {
             </a>
           </p>
         </div>
-        <div className="flex w-11/12 sm:w-3/5 py-2 sm:py-4">
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
               src={trainingPortrait2Pic}
@@ -99,7 +105,7 @@ const Fixtures: NextPage = () => {
             />
           </div>
         </div>
-        <div className="w-11/12 sm:w-3/5 py-2">
+        <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">England Netball</h2>
           <div>
             <p className="text-xl">
@@ -107,14 +113,20 @@ const Fixtures: NextPage = () => {
               with England Netball.
             </p>
             <div className="m-auto py-6 w-11/12 sm:w-3/5">
-              <Image
-                src={englandNetballPic}
-                alt="England Netball"
-                layout="intrinsic"
-                height={1080}
-                width={1920}
-                quality={100}
-              />
+              <a
+                href="https://www.englandnetball.co.uk/"
+                target="about:blank"
+                className="underline"
+              >
+                <Image
+                  src={englandNetballPic}
+                  alt="England Netball"
+                  layout="intrinsic"
+                  height={1080}
+                  width={1920}
+                  quality={100}
+                />
+              </a>
             </div>
             <p className="text-xl">
               Further general information about playing netball can also be
