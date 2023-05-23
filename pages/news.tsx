@@ -14,7 +14,7 @@ const News: NextPage = () => {
         </h1>
         <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">
-            Winter League 2021/22
+            Winter League 2022/23
           </h2>
           <p className="text-xl">
             We were delighted to win division 4 of the Cambridge and District
@@ -39,7 +39,7 @@ const News: NextPage = () => {
           </div>
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
-          <h2 className="text-2xl font-bold leading-10">Summer League 2022</h2>
+          <h2 className="text-2xl font-bold leading-10">Summer League 2023</h2>
           <p className="text-xl">
             This year we were placed in Division C and so far doing well.
           </p>
