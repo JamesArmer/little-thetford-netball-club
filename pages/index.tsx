@@ -51,7 +51,6 @@ const Home: NextPage = () => {
           <Image
             src={landscapeTrainingPic1}
             alt="Team Training Drill"
-            layout="intrinsic"
             height={768}
             width={1024}
             quality={100}
@@ -75,7 +74,6 @@ const Home: NextPage = () => {
             <Image
               src={squareTrainingPic2}
               alt="Shooter Scoring A Goal"
-              layout="intrinsic"
               height={1024}
               width={1024}
               quality={100}

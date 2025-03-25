@@ -31,7 +31,6 @@ const News: NextPage = () => {
             <Image
               src={teamMiniProsecco2}
               alt="Winter League Celebration"
-              layout="intrinsic"
               height={782}
               width={1257}
               quality={100}
@@ -49,7 +48,6 @@ const News: NextPage = () => {
             <Image
               src={teamSummerLeaguePic}
               alt="Summer League Team"
-              layout="intrinsic"
               height={574}
               width={960}
               quality={100}

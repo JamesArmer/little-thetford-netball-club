@@ -30,7 +30,6 @@ const TheClub: NextPage = () => {
             <Image
               src={trainingLandscapeGeorgeLeaving}
               alt="Portrait Training Photo Georgie Leaving"
-              layout="intrinsic"
               height={1096}
               width={1199}
               quality={100}
@@ -75,7 +74,6 @@ const TheClub: NextPage = () => {
             <Image
               src={teamLandscapeGrass}
               alt="Landscape Team Showing Off Their Kit"
-              layout="intrinsic"
               height={933}
               width={1236}
               quality={100}
@@ -99,7 +97,6 @@ const TheClub: NextPage = () => {
               <Image
                 src={TMWFLogo}
                 alt="The Malcolm Whales Foundation logo"
-                layout="intrinsic"
                 height={512}
                 width={512}
                 quality={100}
@@ -131,7 +128,6 @@ const TheClub: NextPage = () => {
           <Image
             src={teamPhotoPic}
             alt="Team Photo Prosecco Celebration"
-            layout="intrinsic"
             height={525}
             width={1183}
             quality={100}

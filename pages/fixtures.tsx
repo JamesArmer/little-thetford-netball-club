@@ -49,7 +49,6 @@ const Fixtures: NextPage = () => {
               <Image
                 src={cdnlPic}
                 alt="Cambridge and District Netball League"
-                layout="intrinsic"
                 height={193}
                 width={872}
                 quality={100}
@@ -88,7 +87,6 @@ const Fixtures: NextPage = () => {
             <Image
               src={trainingPortrait2Pic}
               alt="Portrait Training Throwing Ball"
-              layout="intrinsic"
               height={1024}
               width={474}
               quality={100}
@@ -98,7 +96,6 @@ const Fixtures: NextPage = () => {
             <Image
               src={ballAndNetPic}
               alt="Ball Going Into Net"
-              layout="intrinsic"
               height={1024}
               width={1024}
               quality={100}
@@ -121,7 +118,6 @@ const Fixtures: NextPage = () => {
                 <Image
                   src={englandNetballPic}
                   alt="England Netball"
-                  layout="intrinsic"
                   height={1080}
                   width={1920}
                   quality={100}

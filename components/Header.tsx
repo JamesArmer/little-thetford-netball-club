@@ -14,7 +14,6 @@ export default function Header() {
         <Image
           src={bannerPic}
           alt="Team Photo"
-          layout="intrinsic"
           height={568}
           width={1600}
           quality={100}
