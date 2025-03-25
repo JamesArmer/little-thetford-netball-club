@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import teamMiniProsecco2 from "../public/images/team_mini_prosecoo_2_cropped.jpeg";
-import teamSummerLeaguePic from "../public/images/summer_league_team_cropped.jpeg";
+import teamSummerLeaguePic from "../public/images/2025/summer_league_2025.jpg";
 
 const News: NextPage = () => {
   return (
@@ -48,8 +48,6 @@ const News: NextPage = () => {
             <Image
               src={teamSummerLeaguePic}
               alt="Summer League Team"
-              height={574}
-              width={960}
               quality={100}
             />
           </div>

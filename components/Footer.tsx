@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
       <div className="w-full">
         <p className="text-2xs sm:text-xs sm:absolute sm:bottom-2 sm:right-2">
-          <br />© 2022 Little Thetford Netball Club. All rights reserved.
+          <br />© 2025 Little Thetford Netball Club. All rights reserved.
         </p>
       </div>
     </footer>

@@ -3,8 +3,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
 import englandNetballPic from "../public/images/england_netball_cropped.jpg";
-import trainingPortrait2Pic from "../public/images/training_portrait_2.jpeg";
-import ballAndNetPic from "../public/images/ball_and_net.jpeg";
+import teamScorebaordPic from "../public/images/2025/team_scoreboard_2025.jpg";
 import cdnlPic from "../public/images/CDNL.png";
 
 const Fixtures: NextPage = () => {
@@ -83,21 +82,10 @@ const Fixtures: NextPage = () => {
           </p>
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
-          <div className="flex-auto pr-2">
+          <div className="flex-auto">
             <Image
-              src={trainingPortrait2Pic}
-              alt="Portrait Training Throwing Ball"
-              height={1024}
-              width={474}
-              quality={100}
-            />
-          </div>
-          <div className="flex-auto pl-2">
-            <Image
-              src={ballAndNetPic}
-              alt="Ball Going Into Net"
-              height={1024}
-              width={1024}
+              src={teamScorebaordPic}
+              alt="Summer League Team with the Scoreboard"
               quality={100}
             />
           </div>
