@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "./Navbar";
-import bannerPic from "../public/images/team_shield_cropped.jpeg";
+import bannerPic from "../public/images/2025/team_header.jpg";
 
 /**
  * Returns the page header with text and icons
@@ -14,8 +14,6 @@ export default function Header() {
         <Image
           src={bannerPic}
           alt="Team Photo"
-          height={568}
-          width={1600}
           quality={100}
           className={"h-auto w-full"}
         />

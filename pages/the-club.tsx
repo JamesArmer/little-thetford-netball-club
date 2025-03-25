@@ -2,10 +2,12 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
-import teamPhotoPic from "../public/images/team_mini_prosecco_cropped.jpeg";
-import trainingLandscapeGeorgeLeaving from "../public/images/team_george_leaving_cropped.jpeg";
-import teamLandscapeGrass from "../public/images/team_grass_cropped.jpeg";
+import teamJumpingPic from "../public/images//2025/team_jumping_2025.jpg";
+import trainingLandscapeGeorge from "../public/images/2025/team_trainging_george_2025.jpg";
+import teamLandscapeGrass from "../public/images/2025/team_training_grass_2025.jpg";
 import TMWFLogo from "../public/images/TMWF-site-icon.png";
+import umpireTrainingPic from "../public/images//2025/umpire_training.jpg";
+import kitSponsorTShirts from "../public/images/2025/kit_sponsor_t-shirts.jpg";
 
 const TheClub: NextPage = () => {
   return (
@@ -28,10 +30,8 @@ const TheClub: NextPage = () => {
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
-              src={trainingLandscapeGeorgeLeaving}
+              src={trainingLandscapeGeorge}
               alt="Portrait Training Photo Georgie Leaving"
-              height={1096}
-              width={1199}
               quality={100}
             />
           </div>
@@ -50,8 +50,15 @@ const TheClub: NextPage = () => {
             <br />
             All players are encouraged to take an occasional turn at scoring
             matches after completing a short informal scorers course (on zoom).
-            <br />
-            <br />
+          </p>
+          <div className="flex justify-self-center w-11/12 sm:w-1/2 py-8">
+            <Image
+              src={umpireTrainingPic}
+              alt="Umpire training"
+              quality={100}
+            />
+          </div>
+          <p className="text-xl">
             Little Thetford Netball Club expects all players to adhere to the
             England Netball Code of Conduct and treat captains, officials,
             coaches and fellow players with respect.
@@ -74,8 +81,15 @@ const TheClub: NextPage = () => {
             <Image
               src={teamLandscapeGrass}
               alt="Landscape Team Showing Off Their Kit"
-              height={933}
-              width={1236}
+              quality={100}
+            />
+          </div>
+        </div>
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
+          <div className="flex-1 pr-2">
+            <Image
+              src={kitSponsorTShirts}
+              alt="Team Showing Off Sponsored T-Shirts"
               quality={100}
             />
           </div>
@@ -126,10 +140,8 @@ const TheClub: NextPage = () => {
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
           <Image
-            src={teamPhotoPic}
+            src={teamJumpingPic}
             alt="Team Photo Prosecco Celebration"
-            height={525}
-            width={1183}
             quality={100}
           />
         </div>

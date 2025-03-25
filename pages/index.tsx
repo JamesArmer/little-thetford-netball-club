@@ -3,7 +3,9 @@ import Layout from "../components/Layout";
 import React from "react";
 import Image from "next/image";
 import squareTrainingPic2 from "../public/images/training_square_2.jpeg";
-import landscapeTrainingPic1 from "../public/images/training_landscape_resized.jpeg";
+import shield1 from "../public/images/2025/shield-2025-1.jpg";
+import shield2 from "../public/images/2025/shield-2025-2.jpg";
+import shield3 from "../public/images/2025/shield-2025-3.jpg";
 
 const Home: NextPage = () => {
   return (
@@ -47,17 +49,19 @@ const Home: NextPage = () => {
             go.
           </p>
         </div>
-        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
-          <Image
-            src={landscapeTrainingPic1}
-            alt="Team Training Drill"
-            height={768}
-            width={1024}
-            quality={100}
-          />
+        <div className="sm:flex w-11/12 sm:w-3/5 py-4 sm:py-4">
+          <div className="flex-auto sm:pr-2">
+            <Image src={shield1} alt="Players with awards 1" quality={100} />
+          </div>
+          <div className="flex-auto py-2 sm:py-0">
+            <Image src={shield2} alt="Players with awards 2" quality={100} />
+          </div>
+          <div className="flex-auto py-2 sm:pl-2 sm:py-0">
+            <Image src={shield3} alt="Players with awards 3" quality={100} />
+          </div>
         </div>
         <div className="sm:flex sm:w-3/5 w-11/12">
-          <div className="w-11/12 sm:w-3/5 py-4">
+          <div className="py-4">
             <h2 className="text-2xl font-bold leading-10">Safety on court</h2>
             <p className="text-xl leading-relaxed">
               We want everyone to stay safe and would ask that anyone taking
@@ -69,15 +73,6 @@ const Home: NextPage = () => {
               <li>Removes all jewellery</li>
               <li>Ensures nails are short</li>
             </ul>
-          </div>
-          <div className="sm:pl-4 sm:pt-14 sm:w-2/5 m-auto">
-            <Image
-              src={squareTrainingPic2}
-              alt="Shooter Scoring A Goal"
-              height={1024}
-              width={1024}
-              quality={100}
-            />
           </div>
         </div>
       </div>

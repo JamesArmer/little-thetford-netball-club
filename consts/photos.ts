@@ -1,9 +1,21 @@
 export const photos = [
   {
+    src: "/images/2025/team_glitter_selfie_2025.jpg",
+    title: "Team glitter selfie",
+    width: 2.5,
+    height: 4,
+  },
+  {
     src: "/images/england_netball_event.jpeg",
     title: "Team trip to Birmingham Arena for the Netball Super League",
     width: 4,
     height: 3,
+  },
+  {
+    src: "/images/2025/team_social_2025.jpg",
+    title: "Team social",
+    width: 3,
+    height: 4,
   },
   {
     src: "/images/team_sweets.jpeg",
