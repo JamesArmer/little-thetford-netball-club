@@ -10,14 +10,15 @@ import logoPic from "../public/images/2025/logo_2025.jpg";
 export default function Footer() {
   return (
     <footer className="h-24 border-t flex items-end justify-between px-4">
-      <div className="flex items-center w-1/3 pb-2 sm:pb-4 sm:w-1/9">
+      <div className="flex items-start justify-start w-1/3 sm:w-1/5 h-full">
         <Image
           src={logoPic}
           alt="Little Thetford Netball Club Logo"
           quality={100}
+          className="h-full object-contain"
         />
       </div>
-      <div className="flex items-center py-4 sm:py-8">
+      <div className="flex items-center w-1/3 py-4 sm:py-8">
         <a
           href="https://facebook.com"
           target="about:blank"
