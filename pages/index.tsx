@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import React from "react";
 import Image from "next/image";
-import squareTrainingPic2 from "../public/images/training_square_2.jpeg";
 import shield1 from "../public/images/2025/shield-2025-1.jpg";
 import shield2 from "../public/images/2025/shield-2025-2.jpg";
 import shield3 from "../public/images/2025/shield-2025-3.jpg";
