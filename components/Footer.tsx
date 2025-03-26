@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import React from "react";
 import Image from "next/image";
 import logoPic from "../public/images/2025/logo_2025.jpg";
