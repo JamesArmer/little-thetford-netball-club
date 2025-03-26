@@ -1,4 +1,4 @@
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import React from "react";
 import Image from "next/image";
 import logoPic from "../public/images/2025/logo_2025.jpg";
@@ -20,12 +20,12 @@ export default function Footer() {
       </div>
       <div className="flex items-center w-1/3 py-4 sm:py-8">
         <a
-          href="https://facebook.com"
+          href="https://www.instagram.com/littlethetfordnetballclub"
           target="about:blank"
           rel="noopener noreferrer"
           className="flex items-center text-xs sm:text-base"
         >
-          Find us on <FaFacebook size={25} className="inline-block ml-2" />
+          Find us on <FaInstagram size={25} className="inline-block ml-2" />
         </a>
       </div>
       <div className="flex items-center">

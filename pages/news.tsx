@@ -13,17 +13,22 @@ const News: NextPage = () => {
           News
         </h1>
         <div className="w-11/12 sm:w-3/5 py-4">
-          <h2 className="text-2xl font-bold leading-10">
-            Winter League 2022/23
-          </h2>
+          <h2 className="text-2xl font-bold leading-10">Winter League</h2>
           <p className="text-xl">
-            We were delighted to win division 4 of the Cambridge and District
-            Netball League (CDNL) for the 2022/23 winter season and look forward
-            to playing in division 3.
+            We currently play in division 3 of the Cambridge and District
+            Netball League (CDNL) and are doing well.
+            <br />
+            <br />
+            2023/24 season saw us placed third in division 3 - narrowly missing
+            out on a play-off position by 1 point.
+            <br />
+            <br />
+            We were delighted to win division 4 for the 2022/23 winter season
+            with promotion to division 3.
             <br />
             <br />
             This comes on the back of winning division 5 of the League in
-            2021/22 and promotion again is a fantastic achievement.
+            2021/22 and promotion again was a fantastic achievement.
           </p>
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
@@ -38,9 +43,12 @@ const News: NextPage = () => {
           </div>
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
-          <h2 className="text-2xl font-bold leading-10">Summer League 2023</h2>
+          <h2 className="text-2xl font-bold leading-10">Summer League</h2>
           <p className="text-xl">
-            This year we were placed in Division C and so far doing well.
+            For the Summer League 2024 we played in division B and came second.
+            <br />
+            <br />
+            2023 Summer League saw us placed third in division C.
           </p>
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">

@@ -8,6 +8,7 @@ import teamLandscapeGrass from "../public/images/2025/team_training_grass_2025.j
 import TMWFLogo from "../public/images/TMWF-site-icon.png";
 import umpireTrainingPic from "../public/images//2025/umpire_training.jpg";
 import kitSponsorTShirts from "../public/images/2025/kit_sponsor_t-shirts.jpg";
+import whitingsSponsoredJackets from "../public/images/2025/whitings_sponsored_jackets.jpg";
 
 const TheClub: NextPage = () => {
   return (
@@ -72,15 +73,16 @@ const TheClub: NextPage = () => {
             their assistance with kit purchase:
           </p>
           <ul className="text-xl list-disc sm:pl-10 pl-6 pt-2 leading-relaxed">
-            <li>Cambridge Scaffolding</li>
+            <li>Landmark Scaffolding</li>
             <li>Mark Smith Electrical Services</li>
+            <li>Whitings Chartered Accountants LLP</li>
           </ul>
         </div>
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-1 pr-2">
             <Image
               src={teamLandscapeGrass}
-              alt="Landscape Team Showing Off Their Kit"
+              alt="Team Showing Off Their Kit"
               quality={100}
             />
           </div>
@@ -89,10 +91,26 @@ const TheClub: NextPage = () => {
           <div className="flex-1 pr-2">
             <Image
               src={kitSponsorTShirts}
-              alt="Team Showing Off Sponsored T-Shirts"
+              alt="Team Showing Off Their Sponsored T-Shirts"
               quality={100}
             />
           </div>
+        </div>
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
+          <div className="flex-1 pr-2">
+            <Image
+              src={whitingsSponsoredJackets}
+              alt="Team Showing Off Their Sponsored Jackets"
+              quality={100}
+            />
+          </div>
+        </div>
+        <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
+          <p className="text-xl">
+            New jackets kindly sponsored by Whitings Chartered Accountants LLP.
+            We've already had so many compliments on them and been so grateful
+            to have them over the grey, miserable months. Massive thank you.
+          </p>
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">Charities</h2>
