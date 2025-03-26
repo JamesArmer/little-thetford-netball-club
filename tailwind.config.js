@@ -12,6 +12,9 @@ module.exports = {
       fontSize: {
         "2xs": "0.625rem",
       },
+      width: {
+        "1/9": "11.1111111111%",
+      }
     },
   },
   plugins: [],
