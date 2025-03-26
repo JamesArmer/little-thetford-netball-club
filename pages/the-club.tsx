@@ -108,8 +108,9 @@ const TheClub: NextPage = () => {
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <p className="text-xl">
             New jackets kindly sponsored by Whitings Chartered Accountants LLP.
-            We've already had so many compliments on them and been so grateful
-            to have them over the grey, miserable months. Massive thank you.
+            We&apos;ve already had so many compliments on them and been so
+            grateful to have them over the grey, miserable months. Massive thank
+            you.
           </p>
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
