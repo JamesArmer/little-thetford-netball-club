@@ -16,9 +16,9 @@ const Home: NextPage = () => {
         <div className="w-11/12 sm:w-3/5 py-4">
           <p className="text-xl">
             Little Thetford Netball Club welcomes players of all abilities and
-            are always delighted to have new members. We are mostly adult
-            players (16+) but do welcome those slightly younger (please contact
-            us for more information).
+            are always delighted to have new members. All our members are
+            currently adults. We may welcome players aged 14+, please contact us
+            for more information.
             <br />
             <br />
             We are a friendly club whose main aim is enjoyment and fitness.

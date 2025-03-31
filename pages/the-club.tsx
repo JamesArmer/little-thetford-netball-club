@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
-import teamJumpingPic from "../public/images//2025/team_jumping_2025.jpg";
 import trainingLandscapeGeorge from "../public/images/2025/team_trainging_george_2025.jpg";
 import teamLandscapeGrass from "../public/images/2025/team_training_grass_2025.jpg";
 import TMWFLogo from "../public/images/TMWF-site-icon.png";
@@ -156,13 +155,6 @@ const TheClub: NextPage = () => {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="w-11/12 sm:w-3/5 py-4">
-          <Image
-            src={teamJumpingPic}
-            alt="Team Photo Prosecco Celebration"
-            quality={100}
-          />
         </div>
         <div className="w-11/12 sm:w-3/5 py-4">
           <h2 className="text-2xl font-bold leading-10">

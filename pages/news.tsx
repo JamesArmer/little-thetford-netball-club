@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import React from "react";
-import teamMiniProsecco2 from "../public/images/team_mini_prosecoo_2_cropped.jpeg";
+import teamJumpingPic from "../public/images//2025/team_jumping_2025.jpg";
+
 import teamSummerLeaguePic from "../public/images/2025/summer_league_2025.jpg";
 
 const News: NextPage = () => {
@@ -34,10 +35,8 @@ const News: NextPage = () => {
         <div className="flex w-11/12 sm:w-3/5 py-4 sm:py-4">
           <div className="flex-auto pr-2">
             <Image
-              src={teamMiniProsecco2}
-              alt="Winter League Celebration"
-              height={782}
-              width={1257}
+              src={teamJumpingPic}
+              alt="Team Photo Prosecco Celebration"
               quality={100}
             />
           </div>
